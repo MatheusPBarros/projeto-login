@@ -38,15 +38,23 @@ Grandes telas acima de 1366px
     }
 
     #login > div#imagem  {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
 
     }
+
+    #login > #formulario > h1 {
+        font-size: 1.8em;
+    }
     
+    #login > #formulario > p {
+        font-size: 1.2em;
+        padding-bottom: 15px ;
+    }
 }

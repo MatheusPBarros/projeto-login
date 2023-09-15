@@ -34,7 +34,7 @@ main {
 
 
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.471);
@@ -54,4 +54,16 @@ main {
 #login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+#login > #formulario > h1{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#login > #formulario > p {
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 0.9em;
 }
